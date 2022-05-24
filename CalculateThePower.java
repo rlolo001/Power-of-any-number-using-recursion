@@ -1,11 +1,4 @@
-package com.company;
-/*
-Slide 15
-Write a program in Java to calculate the power of any number using recursion
-
- */
-
-public class ExerciseA2 {
+public class CalculateThePower {
     public static int calculatePower(int baseNum, int power) {
         if (power == 0) {
             return 1;
